@@ -1,5 +1,6 @@
-安装
-nvm 的官方版本只支持 Linux 和 Mac。 
+## 安装
+
+nvm 的官方版本只支持 Linux 和 Mac。
 
 安装只需执行
 
@@ -12,7 +13,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | b
 
 
 
-常用命令
+## 常用命令
 
 nvm install [Nodejs 版本] 安装某版本的Nodejs
 
@@ -24,10 +25,11 @@ nvm ls 查看本机安装的所有的 Nodejs, 并高亮当前使用的版本
 
 
 
-node 淘宝镜像
+## node 淘宝镜像
+
 Ubuntu .bashrc 文件加上：export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 
-npm 淘宝镜像
+## npm 淘宝镜像
 
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 
